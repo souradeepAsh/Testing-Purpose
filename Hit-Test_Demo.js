@@ -1,8 +1,7 @@
-import * as THREE from "https://cdn.rawgit.com/mrdoob/three.js/r117/build/three.module.js";
-      //   import { ARButton } from "https://cdn.rawgit.com/mrdoob/three.js/r117/examples/jsm/webxr/ARButton.js";
-      import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js";
-      import { ARButton } from "https://cdn.rawgit.com/mrdoob/three.js/r117/examples/jsm/webxr/ARButton.js";
-      import * as SkeletonUtils from './SkeletonUtils.js';
+import * as THREE from "three";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { ARButton } from "three/examples/jsm/webxr/ARButton.js";
+import * as SkeletonUtils from './SkeletonUtils.js';
 
       const scene = new THREE.Scene();
       const camera = new THREE.PerspectiveCamera(
