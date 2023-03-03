@@ -1,4 +1,4 @@
-import * as THREE from "./three.module.js";
+import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.module.js";
 import { ARButton } from './ARButton.js';
 
 let container;
